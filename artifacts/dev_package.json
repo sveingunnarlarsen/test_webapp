@@ -1,18 +1,18 @@
 {
-	"id": "b37cbab7-0dd8-ef11-b3d5-e8c829417d3b",
-	"createdAt": "2025-01-21T15:38:11.036Z",
+	"id": "8f7a9aa3-1fd8-ef11-9f3c-b03cdca73631",
+	"createdAt": "2025-01-21T17:46:28.216Z",
 	"createdBy": "svein.gunnar.larsen@neptune-software.com",
 	"git": {
 		"remote": "https://github.com/sveingunnarlarsen/test_webapp.git",
 		"branch": "master"
 	},
-	"name": "test_webapp",
+	"name": "test-webapp",
 	"description": null,
-	"ver": "25.01.21.1639",
+	"ver": "25.01.21.1848",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
-	"excludeTemplateFiles": true,
+	"excludeTemplateFiles": false,
 	"roles": [],
 	"apps": [],
 	"api": [],
@@ -47,11 +47,5 @@
 	"wf_determination": [],
 	"wf_taskaction": [],
 	"theme_ui5": [],
-	"webapp": [
-		{
-			"id": "ddc33121-dad7-ef11-b3d5-e8c829417d3b",
-			"name": "pheno",
-			"description": null
-		}
-	]
+	"webapp": []
 }
