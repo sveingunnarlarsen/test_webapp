@@ -47,5 +47,11 @@
 	"wf_determination": [],
 	"wf_taskaction": [],
 	"theme_ui5": [],
-	"webapp": []
+	"webapp": [
+		{
+			"id": "e20186a1-36d7-ef11-9f3c-b03cdca73631",
+			"name": "pheno",
+			"description": "test description h khjjkhjk"
+		}
+	]
 }
