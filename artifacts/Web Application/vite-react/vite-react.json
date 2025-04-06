@@ -1,0 +1,73 @@
+{
+	"id": "2e72db92-29ea-ef11-9f40-b03cdca73631",
+	"createdAt": "2025-02-13T16:42:56.023Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"settings": {
+		"mainFilePath": "index.html"
+	},
+	"name": "vite-react",
+	"type": "react",
+	"description": null,
+	"onlyRuntime": false,
+	"package": "8f7a9aa3-1fd8-ef11-9f3c-b03cdca73631",
+	"roles": [],
+	"runtime": {
+		"id": "2E72DB92-29EA-EF11-9F40-B03CDCA73631",
+		"createdAt": "2025-02-13T16:42:56.023Z",
+		"page": "file:///index.html",
+		"name": "vite-react",
+		"ver": null,
+		"publicAccess": false,
+		"assets": [
+			{
+				"runtimeId": "2E72DB92-29EA-EF11-9F40-B03CDCA73631",
+				"path": "/assets/index-BKS1Fp7j.js",
+				"createdAt": "2025-02-13T16:43:18.883Z",
+				"updatedAt": "2025-02-13T16:43:18.883Z",
+				"source": "file:///assets/index-BKS1Fp7j.js"
+			},
+			{
+				"runtimeId": "2E72DB92-29EA-EF11-9F40-B03CDCA73631",
+				"path": "/assets/index-C2gQNFKg.js",
+				"createdAt": "2025-02-13T16:43:18.890Z",
+				"updatedAt": "2025-02-13T16:43:18.890Z",
+				"source": "file:///assets/index-C2gQNFKg.js"
+			},
+			{
+				"runtimeId": "2E72DB92-29EA-EF11-9F40-B03CDCA73631",
+				"path": "/assets/index-kQJbKSsj.css",
+				"createdAt": "2025-02-13T16:43:18.893Z",
+				"updatedAt": "2025-02-13T16:43:18.893Z",
+				"source": "file:///assets/index-kQJbKSsj.css"
+			},
+			{
+				"runtimeId": "2E72DB92-29EA-EF11-9F40-B03CDCA73631",
+				"path": "/assets/index-n_ryQ3BS.css",
+				"createdAt": "2025-02-13T16:43:18.896Z",
+				"updatedAt": "2025-02-13T16:43:18.896Z",
+				"source": "file:///assets/index-n_ryQ3BS.css"
+			},
+			{
+				"runtimeId": "2E72DB92-29EA-EF11-9F40-B03CDCA73631",
+				"path": "/assets/react-CHdo91hT.svg",
+				"createdAt": "2025-02-13T16:43:18.900Z",
+				"updatedAt": "2025-02-13T16:43:18.900Z",
+				"source": "file:///assets/react-CHdo91hT.svg"
+			},
+			{
+				"runtimeId": "2E72DB92-29EA-EF11-9F40-B03CDCA73631",
+				"path": "/index.html",
+				"createdAt": "2025-02-13T16:43:18.903Z",
+				"updatedAt": "2025-02-13T16:43:18.903Z",
+				"source": "PCFkb2N0eXBlIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICA8aGVhZD4KICAgIDxtZXRhIGNoYXJzZXQ9IlVURi04IiAvPgogICAgPGxpbmsgcmVsPSJpY29uIiB0eXBlPSJpbWFnZS9zdmcreG1sIiBocmVmPSIvd2ViYXBwL3ZpdGUtcmVhY3Qvdml0ZS5zdmciIC8+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCIgLz4KICAgIDx0aXRsZT5WaXRlICsgUmVhY3QgKyBUUzwvdGl0bGU+CiAgICA8c2NyaXB0IHR5cGU9Im1vZHVsZSIgY3Jvc3NvcmlnaW4gc3JjPSIvd2ViYXBwL3ZpdGUtcmVhY3QvYXNzZXRzL2luZGV4LUJLUzFGcDdqLmpzIj48L3NjcmlwdD4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgY3Jvc3NvcmlnaW4gaHJlZj0iL3dlYmFwcC92aXRlLXJlYWN0L2Fzc2V0cy9pbmRleC1rUUpiS1Nzai5jc3MiPgogIDwvaGVhZD4KICA8Ym9keT4KICAgIDxkaXYgaWQ9InJvb3QiPjwvZGl2PgogIDwvYm9keT4KPC9odG1sPgo="
+			},
+			{
+				"runtimeId": "2E72DB92-29EA-EF11-9F40-B03CDCA73631",
+				"path": "/vite.svg",
+				"createdAt": "2025-02-13T16:43:18.906Z",
+				"updatedAt": "2025-02-13T16:43:18.906Z",
+				"source": "file:////vite.svg"
+			}
+		]
+	}
+}

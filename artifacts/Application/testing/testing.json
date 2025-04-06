@@ -1,0 +1,1632 @@
+{
+	"id": "988fdf08-85e7-ef11-9f40-b03cdca73631",
+	"createdAt": "2025-02-10T08:00:04.730Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": 13,
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"script": "",
+			"fieldType": "sap.m.Shell",
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "visible",
+					"grouping": "Properties",
+					"value": "true",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "showLogout",
+					"grouping": "Properties",
+					"value": "true",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "backgroundRepeat",
+					"grouping": "Properties",
+					"value": "false",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "backgroundOpacity",
+					"grouping": "Properties",
+					"value": "1",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "appWidthLimited",
+					"grouping": "Properties",
+					"value": "true",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": 1,
+					"fieldName": "oApp",
+					"fieldParent": 13,
+					"script": "",
+					"fieldType": "sap.m.SplitApp",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "visible",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "defaultTransitionNameMaster",
+							"grouping": "Properties",
+							"value": "slide",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "defaultTransitionNameDetail",
+							"grouping": "Properties",
+							"value": "slide",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "backgroundRepeat",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "backgroundOpacity",
+							"grouping": "Properties",
+							"value": "1",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": 2,
+							"fieldName": "oPageMaster",
+							"fieldParent": 1,
+							"script": "",
+							"fieldType": "sap.m.Page",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "visible",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Master Page",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showSubHeader",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showNavButton",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showHeader",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showFooter",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "floatingFooter",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "enableScrolling",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "contentOnlyBusy",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "backgroundDesign",
+									"grouping": "Properties",
+									"value": "Standard",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "addMasterPage",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": 15,
+									"fieldName": "oSubMaster",
+									"fieldParent": 2,
+									"script": "",
+									"fieldType": "sap.m.Bar",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "visible",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setSubHeader",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": 16,
+											"fieldName": "Left",
+											"fieldParent": 15,
+											"script": "",
+											"fieldType": "neptune.BarContent",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": 17,
+													"fieldName": "oFilterMaster",
+													"fieldParent": 16,
+													"script": "",
+													"fieldType": "sap.m.SearchField",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "showSearchButton",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "showRefreshButton",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enabled",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enableSuggestions",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": 14,
+									"fieldName": "oList",
+									"fieldParent": 2,
+									"script": "",
+									"fieldType": "sap.m.List",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "visible",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showUnread",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showSeparators",
+											"grouping": "Properties",
+											"value": "All",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showNoData",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "rememberSelections",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "modeAnimationOn",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "keyboardMode",
+											"grouping": "Properties",
+											"value": "Navigation",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "inset",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "includeItemInSelection",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "growingThreshold",
+											"grouping": "Properties",
+											"value": "20",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "growingScrollToLoad",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "growingDirection",
+											"grouping": "Properties",
+											"value": "Downwards",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "growing",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": 18,
+											"fieldName": "oObjectListItem",
+											"fieldParent": 14,
+											"script": "",
+											"fieldType": "sap.m.ObjectListItem",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "visible",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "unread",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "titleTextDirection",
+													"grouping": "Properties",
+													"value": "Inherit",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "My Item",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "selected",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "numberUnit",
+													"grouping": "Properties",
+													"value": "Units",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "numberTextDirection",
+													"grouping": "Properties",
+													"value": "Inherit",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "number",
+													"grouping": "Properties",
+													"value": "10",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "introTextDirection",
+													"grouping": "Properties",
+													"value": "Inherit",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "intro",
+													"grouping": "Properties",
+													"value": "Some Intro",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "iconDensityAware",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://accounting-document-verification",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "highlight",
+													"grouping": "Properties",
+													"value": "None",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": 19,
+													"fieldName": "oObjectAttribute",
+													"fieldParent": 18,
+													"script": "",
+													"fieldType": "sap.m.ObjectAttribute",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "title",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textDirection",
+															"grouping": "Properties",
+															"value": "Inherit",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Attribute 1",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": 20,
+													"fieldName": "oObjectStatus",
+													"fieldParent": 18,
+													"script": "",
+													"fieldType": "sap.m.ObjectStatus",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "status",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textDirection",
+															"grouping": "Properties",
+															"value": "Inherit",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Approved",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "state",
+															"grouping": "Properties",
+															"value": "Success",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconDensityAware",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": 4,
+									"fieldName": "oFooterMaster",
+									"fieldParent": 2,
+									"script": "",
+									"fieldType": "sap.m.Bar",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "visible",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": 5,
+											"fieldName": "Right",
+											"fieldParent": 4,
+											"script": "",
+											"fieldType": "neptune.BarContent",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": 6,
+													"fieldName": "butCreate",
+													"fieldParent": 5,
+													"script": "",
+													"fieldType": "sap.m.Button",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textDirection",
+															"grouping": "Properties",
+															"value": "Inherit",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconFirst",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconDensityAware",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://add",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enabled",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": 3,
+							"fieldName": "oPageDetail",
+							"fieldParent": 1,
+							"script": "",
+							"fieldType": "sap.m.Page",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "visible",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Detail Page",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showSubHeader",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showNavButton",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showHeader",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showFooter",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "floatingFooter",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "enableScrolling",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "contentOnlyBusy",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "backgroundDesign",
+									"grouping": "Properties",
+									"value": "Standard",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "addDetailPage",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": 21,
+									"fieldName": "barDetail",
+									"fieldParent": 3,
+									"script": "",
+									"fieldType": "sap.m.IconTabBar",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "visible",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "upperCase",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "stretchContentHeight",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showOverflowSelectList",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerBackgroundDesign",
+											"grouping": "Properties",
+											"value": "Solid",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expanded",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "enableTabReordering",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "backgroundDesign",
+											"grouping": "Properties",
+											"value": "Solid",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "applyContentPadding",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": 22,
+											"fieldName": "barDetailInfo",
+											"fieldParent": 21,
+											"script": "",
+											"fieldType": "sap.m.IconTabFilter",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "visible",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "General",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "showAll",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "iconDensityAware",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://hint",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "enabled",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": 24,
+													"fieldName": "formDetail",
+													"fieldParent": 22,
+													"script": "",
+													"fieldType": "sap.ui.layout.form.SimpleForm",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "maxContainerCols",
+															"grouping": "Properties",
+															"value": "2",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "labelSpanS",
+															"grouping": "Properties",
+															"value": "12",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "labelSpanM",
+															"grouping": "Properties",
+															"value": "2",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "labelSpanL",
+															"grouping": "Properties",
+															"value": "4",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "labelMinWidth",
+															"grouping": "Properties",
+															"value": "192",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "emptySpanS",
+															"grouping": "Properties",
+															"value": "0",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "emptySpanM",
+															"grouping": "Properties",
+															"value": "0",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "emptySpanL",
+															"grouping": "Properties",
+															"value": "0",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "columnsM",
+															"grouping": "Properties",
+															"value": "1",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "columnsL",
+															"grouping": "Properties",
+															"value": "2",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "breakpointM",
+															"grouping": "Properties",
+															"value": "600",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "breakpointL",
+															"grouping": "Properties",
+															"value": "1024",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "backgroundDesign",
+															"grouping": "Properties",
+															"value": "Translucent",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": 25,
+															"fieldName": "oLabel",
+															"fieldParent": 24,
+															"script": "",
+															"fieldType": "sap.m.Label",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "visible",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Label 1",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "required",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": 28,
+															"fieldName": "oText",
+															"fieldParent": 24,
+															"script": "",
+															"fieldType": "sap.m.Text",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "wrapping",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "visible",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Some information text",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": 26,
+															"fieldName": "oLabel1",
+															"fieldParent": 24,
+															"script": "",
+															"fieldType": "sap.m.Label",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "visible",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Label 2",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "required",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": 29,
+															"fieldName": "oText1",
+															"fieldParent": 24,
+															"script": "",
+															"fieldType": "sap.m.Text",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "wrapping",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "visible",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Some information text",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": 27,
+															"fieldName": "oLabel2",
+															"fieldParent": 24,
+															"script": "",
+															"fieldType": "sap.m.Label",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "visible",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Label 3",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "required",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": 30,
+															"fieldName": "oText2",
+															"fieldParent": 24,
+															"script": "",
+															"fieldType": "sap.m.Text",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "wrapping",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "visible",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Some information text",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": 23,
+											"fieldName": "barDetailList",
+											"fieldParent": 21,
+											"script": "",
+											"fieldType": "sap.m.IconTabFilter",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "visible",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Items",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "showAll",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "iconDensityAware",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://list",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "enabled",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": 7,
+									"fieldName": "oFooterDetail",
+									"fieldParent": 3,
+									"script": "",
+									"fieldType": "sap.m.Bar",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "visible",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": 8,
+											"fieldName": "Right",
+											"fieldParent": 7,
+											"script": "",
+											"fieldType": "neptune.BarContent",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": 9,
+													"fieldName": "butApprove",
+													"fieldParent": 8,
+													"script": "",
+													"fieldType": "sap.m.Button",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Accept",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textDirection",
+															"grouping": "Properties",
+															"value": "Inherit",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Approve",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconFirst",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconDensityAware",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enabled",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": 10,
+													"fieldName": "butReject",
+													"fieldParent": 8,
+													"script": "",
+													"fieldType": "sap.m.Button",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Reject",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textDirection",
+															"grouping": "Properties",
+															"value": "Inherit",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Reject",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconFirst",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconDensityAware",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enabled",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": 11,
+													"fieldName": "butEmp",
+													"fieldParent": 8,
+													"script": "",
+													"fieldType": "sap.m.Button",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textDirection",
+															"grouping": "Properties",
+															"value": "Inherit",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconFirst",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconDensityAware",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enabled",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": 12,
+													"fieldName": "butTransp",
+													"fieldParent": 8,
+													"script": "",
+													"fieldType": "sap.m.Button",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Transparent",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textDirection",
+															"grouping": "Properties",
+															"value": "Inherit",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Transparent",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconFirst",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconDensityAware",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enabled",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "17.12.22.1023",
+	"application": "testing",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": true,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_integration": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "8f7a9aa3-1fd8-ef11-9f3c-b03cdca73631",
+	"apis": []
+}

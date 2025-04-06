@@ -1,0 +1,123 @@
+{
+	"id": "07f03267-f9e7-ef11-9f40-b03cdca73631",
+	"createdAt": "2025-02-10T21:53:04.600Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "7fddf5ea-9b45-47e4-c600-e4513ba20e91",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "0fd251fc-d576-4317-9356-587a0444a1a5",
+					"fieldName": "DynamicPage",
+					"fieldParent": "7fddf5ea-9b45-47e4-c600-e4513ba20e91",
+					"fieldType": "sap.f.DynamicPage",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "e0f5ac45-b0b5-4610-8067-7b370ebb0eb4",
+							"fieldName": "Highchart",
+							"fieldParent": "0fd251fc-d576-4317-9356-587a0444a1a5",
+							"fieldType": "neptune.chart.highchart",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "468a83b7-7f55-4330-f062-b87bbdcb7cfc",
+							"fieldName": "AiChart",
+							"fieldParent": "0fd251fc-d576-4317-9356-587a0444a1a5",
+							"fieldType": "neptune.chart.aichart",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "e26001b0-57ba-47bb-9635-9c769b4a1b14",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "25.02.13.0826",
+	"application": "test",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_integration": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": true,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "8f7a9aa3-1fd8-ef11-9f3c-b03cdca73631",
+	"apis": []
+}

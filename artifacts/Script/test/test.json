@@ -1,0 +1,28 @@
+{
+	"id": "4a8c13ba-18f9-ef11-9f41-b03cdca73631",
+	"createdAt": "2025-03-04T16:50:11.980Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [
+		{
+			"id": "58984895-7c37-4736-b9bd-b699c275d097",
+			"parent": "43c422ed-18f9-ef11-9f41-b03cdca73631",
+			"name": "/nyheter/i/W022Wd/stoere-moette-industrien-ingen-i-eu-vil-legge-toll-mot-norg",
+			"contextname": "nyheteriW022Wdstoeremoetteindustrieningenieuvilleggetollmotnorg",
+			"method": "GET"
+		}
+	],
+	"name": "test",
+	"ver": "25.03.04.1752",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "488c13ba-18f9-ef11-9f41-b03cdca73631",
+	"package": "8f7a9aa3-1fd8-ef11-9f3c-b03cdca73631"
+}
