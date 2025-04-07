@@ -4,7 +4,7 @@
 	"createdBy": "svein.gunnar.larsen@neptune-software.com",
 	"git": {
 		"remote": "https://github.com/sveingunnarlarsen/test_webapp.git",
-		"branch": "master"
+		"branch": "feature/test2/testA"
 	},
 	"name": "test-webapp",
 	"description": null,
