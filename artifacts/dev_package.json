@@ -14,75 +14,13 @@
 	"oeVersion": null,
 	"excludeTemplateFiles": false,
 	"roles": [],
-	"apps": [
-		{
-			"id": "e7efae4e-b7f2-ef11-9f41-b03cdca73631",
-			"application": "logon_language",
-			"title": null,
-			"description": null
-		},
-		{
-			"id": "a94d91f9-3406-f011-9f42-b03cdca73631",
-			"application": "test_error",
-			"title": "",
-			"description": ""
-		},
-		{
-			"id": "988fdf08-85e7-ef11-9f40-b03cdca73631",
-			"application": "testing",
-			"title": "",
-			"description": ""
-		},
-		{
-			"id": "07f03267-f9e7-ef11-9f40-b03cdca73631",
-			"application": "test",
-			"title": "",
-			"description": ""
-		}
-	],
-	"api": [
-		{
-			"id": "d6bdc854-24e2-ef11-9f3e-00155d2231af",
-			"name": "test-search",
-			"description": null,
-			"apiGroup": null
-		},
-		{
-			"id": "4ab143f2-f8e5-ef11-9f40-b03cdca73631",
-			"name": "testHidden",
-			"description": null,
-			"apiGroup": null
-		},
-		{
-			"id": "43c422ed-18f9-ef11-9f41-b03cdca73631",
-			"name": "vg",
-			"description": null,
-			"apiGroup": null
-		},
-		{
-			"id": "32fc3d37-b0e7-ef11-9f40-b03cdca73631",
-			"name": "Testing",
-			"description": null,
-			"apiGroup": null
-		}
-	],
+	"apps": [],
+	"api": [],
 	"odataSource": [],
 	"odataMock": [],
 	"dictionary": [],
-	"jsclass": [
-		{
-			"id": "4a8c13ba-18f9-ef11-9f41-b03cdca73631",
-			"name": "test",
-			"description": null
-		}
-	],
-	"jsscript_group": [
-		{
-			"id": "488c13ba-18f9-ef11-9f41-b03cdca73631",
-			"name": "testrequest",
-			"description": ""
-		}
-	],
+	"jsclass": [],
+	"jsscript_group": [],
 	"theme": [],
 	"pdf": [],
 	"rulesengine": [],
